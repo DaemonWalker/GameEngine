@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GameEngine.Mod.Demo
+namespace GameEngine.Mod.Standard
 {
     public class ExpMap
     {

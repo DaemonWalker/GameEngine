@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8F634704-8C0D-4DC5-9D6B-A875259931B9}</ProjectGuid>
+    <ProjectGuid>{6F32D150-A04C-4873-8F94-E141967D6649}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GameEngine.Map</RootNamespace>
-    <AssemblyName>GameEngine.Map</AssemblyName>
+    <RootNamespace>GameEngine.Mod.Demo</RootNamespace>
+    <AssemblyName>GameEngine.Mod.Demo</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -33,7 +33,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -42,11 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Scenario.cs" />
-    <Compile Include="ScenarioMaker.cs" />
-    <Compile Include="ScenarioObject.cs" />
+    <Compile Include="Item\HealthBottle.cs" />
+    <Compile Include="Item\Shield.cs" />
+    <Compile Include="Item\Sward.cs" />
+    <Compile Include="Monster\AngerySlime.cs" />
+    <Compile Include="Npc\BusinessMan.cs" />
+    <Compile Include="ExpMap.cs" />
+    <Compile Include="Player\Player.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ScenarioObjectType.cs" />
+    <Compile Include="Monster\StupidSlime.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\GameEngine.GameModel\GameEngine.GameModel.csproj">

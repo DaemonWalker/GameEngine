@@ -7,9 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameEngine.Map", "GameEngin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameEngine.GameModel", "GameEngine.GameModel\GameEngine.GameModel.csproj", "{A7CD6D5D-25E4-44BD-B9DC-DB1D9CDB9888}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameEngine.Mod.Demo", "GameEngine.Mod.Demo\GameEngine.Mod.Demo.csproj", "{6F32D150-A04C-4873-8F94-E141967D6649}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameEngine.Mod.Standard", "GameEngine.Mod.Standard\GameEngine.Mod.Standard.csproj", "{6F32D150-A04C-4873-8F94-E141967D6649}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameEngine.Lanuage", "GameEngine.Lanuage\GameEngine.Lanuage.csproj", "{DFC32996-87F7-4DA2-BE1D-D2C52F1CCB80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameEngine.Fight.Physical", "GameEngine.Fight.Physical\GameEngine.Fight.Physical.csproj", "{F3DCB5E2-556F-4DE3-B77F-D1AB2D0162E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameEngine.UI", "GameEngine.UI\GameEngine.UI.csproj", "{4EBF7DAB-543C-4F63-9D52-5FEB94E3B4BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{DFC32996-87F7-4DA2-BE1D-D2C52F1CCB80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFC32996-87F7-4DA2-BE1D-D2C52F1CCB80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFC32996-87F7-4DA2-BE1D-D2C52F1CCB80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3DCB5E2-556F-4DE3-B77F-D1AB2D0162E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3DCB5E2-556F-4DE3-B77F-D1AB2D0162E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3DCB5E2-556F-4DE3-B77F-D1AB2D0162E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3DCB5E2-556F-4DE3-B77F-D1AB2D0162E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EBF7DAB-543C-4F63-9D52-5FEB94E3B4BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EBF7DAB-543C-4F63-9D52-5FEB94E3B4BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EBF7DAB-543C-4F63-9D52-5FEB94E3B4BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EBF7DAB-543C-4F63-9D52-5FEB94E3B4BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

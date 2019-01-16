@@ -1,12 +1,12 @@
 ﻿using GameEngine.GameModel;
-using GameEngine.Mod.Demo.Item;
+using GameEngine.Mod.Standard.Item;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GameEngine.Mod.Demo
+namespace GameEngine.Mod.Standard
 {
     public class BusinessMan : NpcModel
     {
