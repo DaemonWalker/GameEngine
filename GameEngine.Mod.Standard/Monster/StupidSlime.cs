@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace GameEngine.Mod.Standard
 {
-    class StupidSlime : MonsterModel
+    public class StupidSlime : MonsterModel
     {
         public StupidSlime()
         {

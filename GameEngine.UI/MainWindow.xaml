@@ -9,7 +9,10 @@
     Title="MainWindow"
     Width="800"
     Height="450"
-    mc:Ignorable="d">
+    Loaded="Window_Loaded"
+    mc:Ignorable="d"
+    SizeChanged="Window_SizeChanged"
+    KeyDown="Window_KeyDown">
     <Window.Resources>
         <converter:CellSizeConverter x:Key="cellConcerter" />
     </Window.Resources>
@@ -24,7 +27,7 @@
         <StackPanel Grid.Column="3" Background="Black" />
         <StackPanel Grid.Column="1" Background="Gray" />
         <DockPanel Grid.Column="2">
-            <Image />
+            <Image x:Name="img" />
         </DockPanel>
     </Grid>
 </Window>
